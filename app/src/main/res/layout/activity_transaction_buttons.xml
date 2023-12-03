@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16dp"
+    android:gravity="center">
+
+    <!-- Send Button -->
+    <Button
+        android:id="@+id/sendButton"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onSendButtonClick"
+        android:padding="16dp"
+        android:radius="30dp"
+        android:text="Send"
+        android:textColor="#000000" />
+
+    <!-- Receive Button -->
+    <Button
+        android:id="@+id/receiveButton"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onReceiveButtonClick"
+        android:padding="16dp"
+        android:radius="30dp"
+        android:text="Receive"
+        android:textColor="#000000" />
+
+    <!-- Scan Cheque Button -->
+    <Button
+        android:id="@+id/scanChequeButton"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="onScanChequeButtonClick"
+        android:padding="16dp"
+        android:radius="30dp"
+        android:text="Scan"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
